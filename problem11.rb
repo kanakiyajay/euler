@@ -18,7 +18,7 @@ grid.each do |row|
 end
 
 
-highest = 48477312
+highest = 1
 product = 1
 # horizontal and vertical
 
@@ -27,7 +27,7 @@ grid.each do |row|
     k = 3
     while k < row.length
         #horizontal
-        #product = grid[j][k-3] * grid[j][k-2] * grid[j][k-1] * grid[j][k]
+        product = grid[j][k-3] * grid[j][k-2] * grid[j][k-1] * grid[j][k]
         if product > highest
             highest = product
         end

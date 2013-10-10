@@ -31,3 +31,8 @@ Fortunately ruby handles all the Big Numbers
 one function to find the next number
 another to find the number of total sequence of a given number
 A loop from million to 2 to find the highest sequence
+
+15 ## Lattice Paths
+
+Computational Intensive
+Use a simple recursive node function

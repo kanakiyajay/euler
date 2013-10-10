@@ -25,3 +25,9 @@ Loop through the triangles to find the number whose n > 500
 
 Loop through numbers to find the large sum.
 Fortunately ruby handles all the Big Numbers
+
+14 ## Collatz Sequence
+
+one function to find the next number
+another to find the number of total sequence of a given number
+A loop from million to 2 to find the highest sequence

@@ -35,4 +35,11 @@ A loop from million to 2 to find the highest sequence
 15 ## Lattice Paths
 
 Computational Intensive
-Use a simple recursive node function
+Used a simple recursive node function but was too computational intensive
+used the method provided by jasonbhill of matrix[i][j] = matrix[i-1][j] + matrix[i][j-1] to find the last row and last column
+
+16 ## 2 ^ 1000
+
+easy because ruby can handle Big numbers
+
+17 ## Number letter counts

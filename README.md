@@ -43,3 +43,6 @@ used the method provided by jasonbhill of matrix[i][j] = matrix[i-1][j] + matrix
 easy because ruby can handle Big numbers
 
 17 ## Number letter counts
+
+0 - 20 numbers are unique 
+seperated the digits and multiplied and added

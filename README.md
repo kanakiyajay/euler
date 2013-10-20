@@ -70,3 +70,10 @@ Plan to use http://rubytree.rubyforge.org/rdoc/
 Find the number of days from a date to a given date using simple calculations.
 Then of that number % 7 == 0 , its a sunday.
 A final loop and count from 1/1/1901 to 31/12/2000
+
+20 ## Factorial Digit Sum
+
+First loop to calcualte the product of the numbers and the second loop to calculate the sum of the individual
+digits of the product
+
+21 ## Amicable Numbers

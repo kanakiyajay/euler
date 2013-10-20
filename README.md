@@ -66,3 +66,7 @@ Have found the algorithm.
 Plan to use http://rubytree.rubyforge.org/rdoc/
 
 19 ## Counting Sundays
+
+Find the number of days from a date to a given date using simple calculations.
+Then of that number % 7 == 0 , its a sunday.
+A final loop and count from 1/1/1901 to 31/12/2000

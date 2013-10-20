@@ -77,3 +77,13 @@ First loop to calcualte the product of the numbers and the second loop to calcul
 digits of the product
 
 21 ## Amicable Numbers
+
+First a simple function to calculate the sum of divisors.
+Loop from 1 to 10000 and calculate d(n) for each.
+the sum of divisors is pushed to array to avoid duplicates
+
+22 ## Name Scores
+
+Read all the names inside the array.
+Sort the array using the native array.sort! method of ruby.
+Create a Hash that contains letters and their score

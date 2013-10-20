@@ -3,6 +3,12 @@ euler
 
 My solutions in ruby to Project Euler
 
+10 ## Summation of primes
+
+Loop through 0 to two million
+Function isprime? will determine whether that number id prime.
+Find the sum.Too much computation complexity
+
 11 ## Greatest product of four adjacent numbers
 
 Take a matrix grid of 20x20
@@ -46,3 +52,17 @@ easy because ruby can handle Big numbers
 
 0 - 20 numbers are unique 
 seperated the digits and multiplied and added
+
+18 ## Maximum Path Sum 1
+
+Have found the algorithm.
+1.Create a new tree with all values equal to zero of the same dimensions
+2.Then find the coordinates of max number in the given tree
+3.The element will be 1 of the new tree matching that dimensions.
+4.Iterate steps 1 to 3 till you find a way to reach bottom from top.
+5.The findtheway of will be done for binary tree
+6.There will be only 1 way from top to bottom.That will be the max sum path.
+
+Plan to use http://rubytree.rubyforge.org/rdoc/
+
+19 ## Counting Sundays

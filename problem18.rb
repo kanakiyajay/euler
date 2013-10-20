@@ -30,3 +30,50 @@ Find the maximum total from top to bottom of the triangle below:
 
 NOTE: As there are only 16384 routes, it is possible to solve this problem by trying every route.
 =end
+
+chars = IO.read('18.txt')
+
+numbergrid = chars.split("\n")
+
+i =0
+numbergrid.each do |row|
+    numbergrid[i] = row.split(' ').map { |e| e.to_i  }
+    i+=1
+end
+
+zeronegrid = numbergrid.map {|e| e.map {|c| 0} }
+
+max = numbergrid.flatten.max
+
+numbergrid.each_index do |i|
+    numbergrid[i].each_index do |j|
+        #(i,j) are the co-ordinates
+        if numbergrid[i][j] == max
+            zeronegrid[i][j] = 1
+        end
+    end
+end
+
+def ispossible?
+    bool = true
+    zeronegrid.each_index do |i|
+        #First make sure that all the rows at least contain a 1
+        if !zeronegrid[i].member? 1
+            bool = false
+        end
+    end
+end
+
+@stack = []
+@ways = []
+
+zeronegrid.each_index do |i|
+    #Start from the top
+    zeronegrid[i].each_index do |j|
+        if zeronegrid[i][j] == 1
+            @stack.push([i,j])
+        end
+    end
+end
+
+puts @stack

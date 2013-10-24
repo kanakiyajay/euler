@@ -102,3 +102,9 @@ so there are 0.... , 1.... ,2.... total 10 combinations arranged in numberical o
 Similarly 01.... , 02... , 03... total 10 combinations .... it goes on .
 The first iteration will be 1000000 / 9! = 2 ... the first letter is arr[2]
 similarly the count will be 100000 % 9! = 27420 .... get the 27420th lexi number from 20....,21.... ,22.....
+
+25 ## 1000-digit Fibonacci number
+
+Brute force would have been very difficult.Found a simple solution explaining Fibonacci at http://mathworld.wolfram.com/FibonacciNumber.html
+10^999 = phi(n)/sqrt(5) => phi is the golden ratio which is 1.6180
+on log and solving we get n = 4781
